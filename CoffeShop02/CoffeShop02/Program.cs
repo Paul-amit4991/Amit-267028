@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CoffeShop
+namespace CoffeShop02
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace CoffeShop
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Home());
+            Application.Run(new CoffeShop02());
         }
     }
 }

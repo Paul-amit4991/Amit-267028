@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{441B750C-72A7-4C15-9BE5-E726913C8CCE}</ProjectGuid>
+    <ProjectGuid>{0160D8D9-4BAA-4E09-94EE-6C579CE391C8}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CoffeShop</RootNamespace>
-    <AssemblyName>CoffeShop</AssemblyName>
+    <RootNamespace>CoffeShop02</RootNamespace>
+    <AssemblyName>CoffeShop02</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Home.cs">
+    <Compile Include="CoffeShop02.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Home.Designer.cs">
-      <DependentUpon>Home.cs</DependentUpon>
+    <Compile Include="CoffeShop02.Designer.cs">
+      <DependentUpon>CoffeShop02.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Home.resx">
-      <DependentUpon>Home.cs</DependentUpon>
+    <EmbeddedResource Include="CoffeShop02.resx">
+      <DependentUpon>CoffeShop02.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
